@@ -1,1 +1,1 @@
-python detect.py --classes ../data/train/emotion.names --weights ./checkpoints/yolov3_train_117_loss_48.806060791015625.tf --tiny --image ../data/test/img --num_classes 5
+python detect.py --classes ./data/emotion.names --weights ./checkpoints/yolov3_train_117_loss_48.806060791015625.tf --tiny --image ../data/test/img --num_classes 5
